@@ -24,10 +24,18 @@ main{
     height: fit-content;
     background-color: #050505;
     padding: 20px 200px 20px 240px;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     display: flex;
     flex-direction: column;
+}
+
+.href-site a{
+    color: #ba8fff;
+}
+
+.href-map a{
+    color: #8fffd0;
 }
 
 header{
@@ -86,6 +94,15 @@ header{
     font-size: 1.7rem;
     color: #252525;
     margin-top: 10px;
+}
+
+.divisor{
+    margin-top: 30px;
+    width: 50px;
+    height: 10px;
+    background-color: #0a0a0a;
+    border-radius: 50px;
+    margin-bottom: 30px;
 }
 
 .buttons-header{
@@ -158,6 +175,15 @@ header{
 @media (max-width: 410px) {
     .tags{
         flex-direction: column;
+    }
+
+    .divisor{
+        margin-top: 15px;
+        width: 40px;
+        height: 7px;
+        background-color: #0a0a0a;
+        border-radius: 50px;
+        margin-bottom: 5px;
     }
 
     .title{

@@ -1,13 +1,14 @@
 import React from 'react';
 import '../styles/Nav.css';  // Asegúrate de que la ruta sea correcta
+import { Link } from 'react-router-dom'; 
 
 function Nav() {
   return (
     <div>
       <nav>
         <ul>
-          <li><img src="/icon-home.png" alt="" srcset=""/><p>Inicio</p></li>
-          <li><img src="/icon-about.png" alt="" srcset=""/><p>Sobre mi</p></li>
+          <Link to="/Home"><li><img src="/icon-home.png" alt="" srcset=""/><p>Inicio</p></li></Link>
+          <Link to="/about"><li><img src="/icon-about.png" alt="" /><p>Sobre mi</p></li></Link>
           <li><img src="/icon-education.png" alt="" srcset=""/><p>Educación</p></li>
           <li><img src="/icon-skills.png" alt="" srcset=""/><p>Habilidades</p></li>
           <li><img src="/icon-projects.png" alt="" srcset=""/><p>Proyectos</p></li>
