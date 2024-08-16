@@ -27,7 +27,7 @@ li{
     padding: 10px;
     font-size: 0.9rem;
     font-weight: 400;
-    color: #b0b0b0;
+    color: #8f8f8f;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -47,6 +47,9 @@ li:hover{
     font-weight: 400;
     cursor: pointer;
     border: 1px solid #1a1a1a;
+    display: flex;
+    align-items: center;
+    gap: 15px;
     
 }
 
@@ -55,6 +58,16 @@ li:hover{
     transition: 0.1s;
 }
 
-li img{
-    width: 1rem;
+li img, .button-cv img{
+    width: 1.1rem;
+}
+
+@media (max-width: 1024px) {
+    li p, .button-cv p{
+        display: none;
+    }
+
+    li, .button-cv{
+        padding: 20px;
+    }
 }

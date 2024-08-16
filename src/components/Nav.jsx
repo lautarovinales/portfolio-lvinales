@@ -6,14 +6,14 @@ function Nav() {
     <div>
       <nav>
         <ul>
-          <li><img src="/icon-home.png" alt="" srcset=""/>Inicio</li>
-          <li><img src="/icon-about.png" alt="" srcset=""/>Sobre mi</li>
-          <li><img src="/icon-education.png" alt="" srcset=""/>Educación</li>
-          <li><img src="/icon-skills.png" alt="" srcset=""/>Habilidades</li>
-          <li><img src="/icon-projects.png" alt="" srcset=""/>Proyectos</li>
+          <li><img src="/icon-home.png" alt="" srcset=""/><p>Inicio</p></li>
+          <li><img src="/icon-about.png" alt="" srcset=""/><p>Sobre mi</p></li>
+          <li><img src="/icon-education.png" alt="" srcset=""/><p>Educación</p></li>
+          <li><img src="/icon-skills.png" alt="" srcset=""/><p>Habilidades</p></li>
+          <li><img src="/icon-projects.png" alt="" srcset=""/><p>Proyectos</p></li>
         </ul>
         <div className="button-cv">
-          Descargar CV
+          <img src="/icon-download.png" alt="" srcset="" /><p>Descargar CV</p>
         </div>
       </nav>
     </div>

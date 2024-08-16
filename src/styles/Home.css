@@ -20,6 +20,152 @@ html {
 
 main{
     width: 100%;
-    height: 2000px;
+    min-height: 100vh;
+    height: fit-content;
     background-color: #050505;
+    padding: 20px 200px 20px 240px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    gap: 40px;
+    align-items: center;
+    justify-content: start;
+}
+
+.img{
+    background-image: url('../../public/img-profile.jpeg');
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.img-mobile{
+    background-image: url('../../public/img-profile.jpeg');
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+    
+}
+
+.tags{
+    display: flex;
+    gap: 10px;
+}
+
+.tag{
+    font-size: 0.8rem;
+    color: #ffffff;
+    border: 1px solid #252525;
+    border-radius: 100px;
+    padding: 5px 20px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.sub-title{
+    font-size: 1.7rem;
+    color: #252525;
+    margin-top: 10px;
+}
+
+.buttons-header{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.button-about{
+    color: #ffffff;
+    border: 1px solid #252525;
+    border-radius: 100px;
+    padding: 6px 35px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    
+}
+
+.button-contact{
+    color: #000000;
+    background-color: #ba8fff;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 6px 35px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.button-about, .button-contact{
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    main{
+        padding: 50px 50px 50px 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    header{
+        flex-direction: column;
+    }
+
+    .tag{
+        font-size: 0.5rem;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .sub-title{
+        font-size: 1rem;
+    }
+
+    .button-about, .button-contact{
+        font-size: 0.6rem;
+        padding: 10px 25px;
+    }
+}
+
+@media (max-width: 410px) {
+    .tags{
+        flex-direction: column;
+    }
+
+    .title{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .buttons-header{
+        flex-direction: column;
+    }
+
+    .button-about, .button-contact{
+        width: 100%;
+    }
 }
