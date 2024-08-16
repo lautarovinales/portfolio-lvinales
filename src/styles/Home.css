@@ -123,7 +123,7 @@ header{
 
 @media (max-width: 1024px) {
     main{
-        padding: 20px 20px 20px 100px;
+        padding: 10px 10px 10px 100px;
     }
 }
 
@@ -158,10 +158,6 @@ header{
 @media (max-width: 410px) {
     .tags{
         flex-direction: column;
-    }
-
-    .tag{
-        border: 2px solid #252525;
     }
 
     .title{
