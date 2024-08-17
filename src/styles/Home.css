@@ -25,7 +25,7 @@ main{
     background-color: #050505;
     padding: 20px 200px 20px 240px;
     align-items: start;
-    justify-content: center;
+    justify-content: start;
     display: flex;
     flex-direction: column;
 }
