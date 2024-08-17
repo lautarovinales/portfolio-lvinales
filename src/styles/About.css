@@ -24,6 +24,7 @@
     display: flex;
     flex-direction: column;
     margin-top: -5px;
+    gap: 5px;
 }
 
 .cont-wrap img {
@@ -37,19 +38,18 @@
 }
 
 .cont-body {
-    font-size: 0.9rem;
-    color: #3a3a3a;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #4a4a4a;
 }
 
 @media (max-width: 768px) {
     .cont-title{
-        font-size: 0.6rem;
+        font-size: 1rem;
         color: white;
     }
     
     .cont-body{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 
     .cont-wrap{
