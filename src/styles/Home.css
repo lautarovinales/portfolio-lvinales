@@ -32,14 +32,17 @@ main{
 
 .href-site a{
     color: #ba8fff;
+    font-weight: 500;
 }
 
 .href-site2 a{
     color: #cdfe77;
+    font-weight: 500;
 }
 
 .href-map a{
     color: #8fffd0;
+    font-weight: 500;
 }
 
 header{
@@ -185,7 +188,6 @@ header{
         margin-top: 15px;
         width: 40px;
         height: 7px;
-        background-color: #0a0a0a;
         border-radius: 50px;
         margin-bottom: 5px;
     }
