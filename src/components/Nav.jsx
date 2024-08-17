@@ -9,7 +9,7 @@ function Nav() {
         <ul>
           <Link to="/Home"><li><img src="/icon-home.png" alt="" srcset=""/><p>Inicio</p></li></Link>
           <Link to="/about"><li><img src="/icon-about.png" alt="" /><p>Sobre mi</p></li></Link>
-          <li><img src="/icon-education.png" alt="" srcset=""/><p>Educación</p></li>
+          <Link to="/education"><li><img src="/icon-education.png" alt="" srcset=""/><p>Educación</p></li></Link>
           <li><img src="/icon-skills.png" alt="" srcset=""/><p>Habilidades</p></li>
           <li><img src="/icon-projects.png" alt="" srcset=""/><p>Proyectos</p></li>
         </ul>

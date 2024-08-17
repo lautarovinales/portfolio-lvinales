@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Education from './pages/Education';
 import './App.css';
 import Nav from './components/Nav'; 
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/education" element={<Education />} />
         </Routes>
       </div>
     </Router>

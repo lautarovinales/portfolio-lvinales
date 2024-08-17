@@ -34,6 +34,10 @@ main{
     color: #ba8fff;
 }
 
+.href-site2 a{
+    color: #cdfe77;
+}
+
 .href-map a{
     color: #8fffd0;
 }
@@ -76,7 +80,7 @@ header{
 .tag{
     font-size: 0.8rem;
     color: #ffffff;
-    border: 1px solid #252525;
+    border: 1px solid #3a3a3a;
     border-radius: 100px;
     padding: 5px 20px;
     width: fit-content;
@@ -92,7 +96,7 @@ header{
 
 .sub-title{
     font-size: 1.7rem;
-    color: #252525;
+    color: #3a3a3a;
     margin-top: 10px;
 }
 
@@ -102,7 +106,7 @@ header{
     height: 10px;
     background-color: #0a0a0a;
     border-radius: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .buttons-header{
@@ -114,7 +118,7 @@ header{
 
 .button-about{
     color: #ffffff;
-    border: 1px solid #252525;
+    border: 1px solid #3a3a3a;
     border-radius: 100px;
     padding: 6px 35px;
     width: fit-content;
