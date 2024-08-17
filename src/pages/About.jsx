@@ -50,14 +50,14 @@ function About() {
           <div className="title">Objetivos</div>
           <div className="flex-wrap-about">
           <div className="cont-wrap">
-              <img src="/icon-name.png" alt="" srcset="" />
+              <img src="/icon-pin.png" alt="" srcset="" />
               <div className="title-sub-title">
                 <div className="cont-title">Desarrollo profesional</div>
                 <div className="cont-body">Quiero seguir creciendo como desarrollador web fullstack, aprendiendo las mejores prácticas tanto de backend como de frontend. Me interesa estar siempre al día con las últimas tecnologías y seguir capacitándome para ser un profesional más completo. Mi meta es poder crear soluciones innovadoras y aportar valor en cualquier proyecto en el que trabaje.</div>
               </div>
           </div>
           <div className="cont-wrap">
-              <img src="/icon-name.png" alt="" srcset="" />
+              <img src="/icon-pin.png" alt="" srcset="" />
               <div className="title-sub-title">
                 <div className="cont-title">Colaborar con otros developers</div>
                 <div className="cont-body">Me gustaría trabajar en equipo para aprender de otros profesionales, intercambiar ideas y llevar a cabo proyectos desafiantes juntos.</div>

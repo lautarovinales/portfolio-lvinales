@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Education from './pages/Education';
+import Skills from './pages/Skills';
 import './App.css';
 import Nav from './components/Nav'; 
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/education" element={<Education />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
       </div>
     </Router>
