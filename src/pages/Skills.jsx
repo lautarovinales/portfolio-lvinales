@@ -1,103 +1,43 @@
-import '../styles/Education.css';
-import Nav from '../components/Nav'
+import React from 'react';
+import '../styles/About.css';
+import Nav from '../components/Nav';
+import Title from '../components/Title';
+import SubTitle from '../components/SubTitle';
+import InfoCard from '../components/InfoCard';
+import Divider from '../components/Divider';
+import FlexWrap from '../components/FlexWrap';
 
 function Skills() {
   return (
     <div>
-        <Nav/>
-        <main>
-        <div className="title">Habilidades</div>
-        <div className="sub-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, non!</div>
-        <div className="divisor"></div>
-        <div className="title">Lenguajes de programación</div>
-          <div className="flex-wrap-about">
-          <div className="cont-wrap">
-              <img src="/icon-frontend.png" alt="" srcset="" />
-              <div className="title-sub-title">
-                <div className="cont-title">Front-end</div>
-                <div className="cont-body">HTML, CSS, Javascript</div>
-              </div>
-            </div>
-            <div className="cont-wrap">
-              <img src="/icon-tool.png" alt="" srcset="" />
-              <div className="title-sub-title">
-                <div className="cont-title">Frameworks</div>
-                <div className="cont-body">React, Tailwind.css</div>
-              </div>
-            </div>
-            <div className="cont-wrap">
-              <img src="/icon-backend.png" alt="" srcset="" />
-              <div className="title-sub-title">
-                <div className="cont-title">Back-end</div>
-                <div className="cont-body">Node.js, Express.js, SQL</div>
-              </div>
-            </div>
-            </div>
-            <div className="divisor"></div>
-            <div className="title">Herramientas</div>
-          <div className="flex-wrap-about">
-          <div className="cont-wrap">
-              <img src="/icon-tool.png" alt="" srcset="" />
-              <div className="title-sub-title">
-                <div className="cont-title">IDE</div>
-                <div className="cont-body">Visual Studio Code</div>
-              </div>
-            </div>
-            <div className="cont-wrap">
-              <img src="/icon-so.png" alt="" srcset="" />
-              <div className="title-sub-title">
-                <div className="cont-title">Sistemas Operativos</div>
-                <div className="cont-body">Windows 10, Windows 11</div>
-              </div>
-            </div>
-            <div className="cont-wrap">
-              <img src="/icon-git.png" alt="" srcset="" />
-              <div className="title-sub-title">
-                <div className="cont-title">Versionado</div>
-                <div className="cont-body">Git, Github</div>
-              </div>
-            </div>
-            <div className="cont-wrap">
-              <img src="/icon-tool.png" alt="" srcset="" />
-              <div className="title-sub-title">
-                <div className="cont-title">Otros programas</div>
-                <div className="cont-body">Postman, Trello</div>
-              </div>
-            </div>
-            </div>
-            <div className="divisor"></div>
-            <div className="title">Soft skills</div>
-<div className="flex-wrap-about">
-  <div className="cont-wrap">
-    <img src="/icon-talk.png" alt="" />
-    <div className="title-sub-title">
-      <div className="cont-title">Comunicación</div>
-      <div className="cont-body">Expreso ideas de manera clara y efectiva, facilitando la colaboración en equipo.</div>
-    </div>
-  </div>
-  <div className="cont-wrap">
-    <img src="/icon-group.png" alt="" />
-    <div className="title-sub-title">
-      <div className="cont-title">Trabajo en equipo</div>
-      <div className="cont-body">Colaboro eficientemente, compartiendo conocimientos para lograr objetivos comunes.</div>
-    </div>
-  </div>
-  <div className="cont-wrap">
-    <img src="/icon-warning.png" alt="" />
-    <div className="title-sub-title">
-      <div className="cont-title">Resolución de problemas</div>
-      <div className="cont-body">Enfrento desafíos complejos con un enfoque lógico y creativo.</div>
-    </div>
-  </div>
-  <div className="cont-wrap">
-    <img src="/icon-skill.png" alt="" />
-    <div className="title-sub-title">
-      <div className="cont-title">Adaptabilidad</div>
-      <div className="cont-body">Me adapto rápidamente a nuevas tecnologías y cambios en el entorno laboral.</div>
-    </div>
-  </div>
-</div>
-        </main>
+      <Nav />
+      <main>
+        <Title text="Habilidades" />
+        <SubTitle text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, non!" />
+        <Divider />
+        <Title text="Lenguajes de programación" />
+        <FlexWrap>
+          <InfoCard iconSrc="/icon-frontend.png" title="Front-end" body="HTML, CSS, Javascript" />
+          <InfoCard iconSrc="/icon-tool.png" title="Frameworks" body="React, Tailwind.css" />
+          <InfoCard iconSrc="/icon-backend.png" title="Back-end" body="Node.js, Express.js, SQL" />
+        </FlexWrap>
+        <Divider />
+        <Title text="Herramientas" />
+        <FlexWrap>
+          <InfoCard iconSrc="/icon-tool.png" title="IDE" body="Visual Studio Code" />
+          <InfoCard iconSrc="/icon-so.png" title="Sistemas Operativos" body="Windows 10, Windows 11" />
+          <InfoCard iconSrc="/icon-git.png" title="Versionado" body="Git, Github" />
+          <InfoCard iconSrc="/icon-tool.png" title="Otros programas" body="Postman, Trello" />
+        </FlexWrap>
+        <Divider />
+        <Title text="Soft skills" />
+        <FlexWrap>
+          <InfoCard iconSrc="/icon-talk.png" title="Comunicación" body="Expreso ideas de manera clara y efectiva, facilitando la colaboración en equipo." />
+          <InfoCard iconSrc="/icon-group.png" title="Trabajo en equipo" body="Colaboro eficientemente, compartiendo conocimientos para lograr objetivos comunes." />
+          <InfoCard iconSrc="/icon-warning.png" title="Resolución de problemas" body="Enfrento desafíos complejos con un enfoque lógico y creativo." />
+          <InfoCard iconSrc="/icon-skill.png" title="Adaptabilidad" body="Me adapto rápidamente a nuevas tecnologías y cambios en el entorno laboral." />
+        </FlexWrap>
+      </main>
     </div>
   );
 }
