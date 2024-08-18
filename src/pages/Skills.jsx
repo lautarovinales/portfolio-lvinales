@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../styles/About.css';
 import Nav from '../components/Nav';
 import Title from '../components/Title';
@@ -8,12 +8,16 @@ import Divider from '../components/Divider';
 import FlexWrap from '../components/FlexWrap';
 
 function Skills() {
+  useEffect(() => {
+    document.title = "Portolio | Habilidades";
+  }, []);
+
   return (
     <div>
       <Nav />
       <main>
         <Title text="Habilidades" />
-        <SubTitle text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, non!" />
+        <SubTitle text="Soy Técnico en Informática y además Desarrollador Web FullStack, con experiencia en la creación y desarrollo de aplicaciones web, tanto en el frontend como en el backend." />
         <Divider />
         <Title text="Lenguajes de programación" />
         <FlexWrap>

@@ -13,9 +13,9 @@ function Nav() {
           <Link to="/skills"><li><img src="/icon-skills.png" alt="" srcset=""/><p>Habilidades</p></li></Link>
           <li><img src="/icon-projects.png" alt="" srcset=""/><p>Proyectos</p></li>
         </ul>
-        <div className="button-cv">
+        <a href="https://drive.google.com/drive/folders/1p_GfsOpm0Mr9Uethuwnicj50m2ar7Pp6"><div className="button-cv">
           <img src="/icon-download.png" alt="" srcset="" /><p>Descargar CV</p>
-        </div>
+        </div></a>
       </nav>
     </div>
   );

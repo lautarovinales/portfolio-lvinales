@@ -1,7 +1,12 @@
+import {useEffect} from 'react';
 import '../styles/Home.css';
 import Nav from '../components/Nav'
 
 function Home() {
+  useEffect(() => {
+    document.title = "Portolio | Inicio ";
+  }, []);
+
   return (
     <div>
         <Nav/>
@@ -17,8 +22,8 @@ function Home() {
               <div className='title'>Hola, soy Lautaro Viñales</div>
               <div className="sub-title">Soy un apasionado desarrollador web full stack. Disfruto trabajar en equipo, aportar soluciones creativas y cumplir con mis responsabilidades de programación de manera efectiva. </div>
               <div className="buttons-header">
-                <div className="button-about">Sobre mi</div>
-                <div className="button-contact">Contacto</div>
+                <a href="/about"><div className="button-about">Sobre mi</div></a>
+                <a href="/skills"><div className="button-contact">Habilidades</div></a>
               </div>
             </div>
           </header>
