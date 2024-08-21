@@ -11,7 +11,7 @@ function Nav() {
           <Link to="/about"><li><img src="/icon-about.png" alt="" /><p>Sobre mi</p></li></Link>
           <Link to="/education"><li><img src="/icon-education.png" alt="" srcset=""/><p>Educación</p></li></Link>
           <Link to="/skills"><li><img src="/icon-skills.png" alt="" srcset=""/><p>Habilidades</p></li></Link>
-          <li><img src="/icon-projects.png" alt="" srcset=""/><p>Proyectos</p></li>
+          <Link to="/projects"><li><img src="/icon-projects.png" alt="" srcset=""/><p>Proyectos</p></li></Link>
         </ul>
         <a href="https://drive.google.com/drive/folders/1p_GfsOpm0Mr9Uethuwnicj50m2ar7Pp6"><div className="button-cv">
           <img src="/icon-download.png" alt="" srcset="" /><p>Descargar CV</p>
