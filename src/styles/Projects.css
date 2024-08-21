@@ -5,7 +5,6 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .project-container img{
@@ -27,7 +26,6 @@
 .tags-project{
     display: flex;
     gap: 5px;
-    padding-bottom: 10px;
     flex-wrap: wrap;
 }
 
@@ -54,7 +52,7 @@
 }
 
 .link-project a{
-    font-size: 0.8;
+    font-size: 0.8rem;
     color: #ba8fff;
 }
 
@@ -79,10 +77,33 @@
     color: #ffffff;
 }
 
+
 @media (max-width: 410px) {
+    .tags-project{
+        padding-bottom: 0px;
+    }
+
+    .title-project{
+        font-size: 1rem;
+    }
+
+    .project-container img{
+        height: 150px;
+    }
+    
     .cont-sub-title-projects{
         font-size: 0.7rem;
         color: #ffffff;
+    }
+
+    .project-container{
+        margin-top: 10px;
+    }
+    
+
+    .tag-project{
+        font-size: 0.3rem;
+        padding: 2px 5px;
     }
 
     .cont-body-p-project{
